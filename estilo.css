@@ -1,0 +1,75 @@
+body{ padding-top: 40px;
+	background-color: #000;
+}
+
+.bloco1, .bloco2, .bloco3{ padding: 8px;}
+
+.bloco1 { background-color: #fff; margin-top: 30px;
+  -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 4px 4px rgba(0,0,0,.065);
+          box-shadow: 0 4px 4px rgba(0,0,0,.065);
+
+}
+
+
+button{margin-top: 10px;}
+
+.sb-page-header {
+  position: relative;
+  min-height: 100px;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #fff; /* Old browsers */
+  background: url(img/hei3.png) repeat center center;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+            border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+
+}
+
+.font-header1{
+	font-family: arial, sans-serif;
+	font-style: bold;
+	text-align: center;
+	 text-shadow: 0 6px 3px rgba(255,255,255,.4), 0 0 29px rgba(0,0,0,.075);
+
+
+
+}
+.font-header2{
+	font-family: arial, sans-serif;
+	font-style: bold;
+	text-align: center;
+	 text-shadow: 0 6px 3px rgba(255,255,255,.4), 0 0 29px rgba(0,0,0,.075);
+
+}
+
+img {
+height: 130px;
+width: 150px;
+
+margin: 10px;
+}
+
+.imgpatro {
+height: 90px;
+width: 200px;
+}
+
+.bacdsadsak {
+  background: url(img/1752413.jpg) center center center center;
+  
+}
+
+.hero-unit{
+  background-image: url("img/irlanda.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 300px;
+}

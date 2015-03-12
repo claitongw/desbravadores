@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Primeira aula Bootstrap"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Desbravadores</title>
+	<link rel="shortcut icon" href="img/favicon.jpg">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="docs.css">
+
+
+	<!-- Ligação com jQuery-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+<body class="back">
+
+<!-- aqui temos a barra fixa-->
+
+<div class="navbar navbar-inverse navbar-fixed-top"> <!--faz toda a criação da barra de navegação-->
+	<div class="navbar-inner"> <!--começa a fazer a formatação da barra-->
+		<div class="container"> <!--faz toda o agrupamento dos botões e links-->
+			<!-- .btn-navbar é a classe alternador para o conteudo colapsavel-->
+			<button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+				
+			<div class="nav-collapse collapse">
+
+				<ul class="nav">
+					<li class=""><a href="index.html">História do Rugby </a></li>
+					<li class=""><a href="">Regras</a></li>
+					<li class=""><a href="">World Rugby</a></li>
+					<li class=""><a href="">Confederação Brasileira</a></li>
+					<li class=""><a href="">Confederação Gaúcha</a></li>
+					<li class=""><a href="">Fale conosco</a></li>
+				</ul>
+				<form action="" class="navbar-form pull-right">
+					<input type="text" class="span2" placeholder="Pesquise no site...">
+					<button class="btn btn-inverse">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- aqui temos a barra com a imagem-->
+
+<header class="sb-page-header">
+	<div class="container">
+		<div class="font-header1">
+			<!--<h1>Desbravadores</h1>
+			<h2>Rugby</h2>
+			<span>Respeito, Humildade, Igualdade</span>-->
+		</div>
+	</div>
+		<div class="font-header2">
+			<!--<h1 >Pratique RUGBY, <br>o esporte que mais cresce no Brasil</h1>-->
+		</div>
+</header>
+
+<!-- aqui temos o menu lateral-->
+	<div class="container-fluid">
+		<div class="row-fluid">
+
+			<div class="span2 bloco1 img-rounded">
+				<aside class="span2 bs-docs-sidebar"> <!--Usamos aside porque esta não sera nossa navegação padrão-->
+					<ul class="nav nav-list bs-docs-sidenav">
+						<li><a href="#btn-dropdown"><i class="icon-chevron-right"></i>Dropdown de Botões</a></li>
+						<li><a href="#heroi"><i class="icon-chevron-right"></i>Unidade Herói</a></li>
+						<li><a href="#"><i class="icon-chevron-right"></i>Link 3</a></li>
+					</ul>
+				</aside>
+			</div>
+		
+			<div class="span7 bloco1 img-rounded">
+				<div>
+					<table class="table table-hover table-condensed">
+						<caption><h3>Quer jogar Rugby? Clique aqui</h3></caption>
+						<tbody>
+							<tr class="">
+								<td class="span3">
+									<img src="img/1.jpg" alt="" class="img-rounded">
+								</td>
+								<td>
+									<h3>Desbravadores iniciam na copa RS 2015...<h6>{ler mais}</h6></3>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div>
+					<img src="img/irlanda.jpg" alt="" class="img-rounded">
+				</div>
+				<div>
+					<img src="img/irlanda.jpg" alt="" class="img-rounded">
+				</div>
+					
+				
+			</div>
+
+			
+			<!-- FOGUINHO MECHE SÓ DAQUI PARA BAIXO-->
+			<div class="span3 bloco1 img-rounded ">
+				<h3>Patrocinadores</h3>
+				<div>
+					<img src="img/patro/1.jpg" alt="" class="imgpatro ">
+				</div>
+				<div>
+					<img src="img/patro/2.png" alt="" class="imgpatro">
+				</div>
+				<div>
+					<img src="img/patro/3.jpg" alt="" class="imgpatro">
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
